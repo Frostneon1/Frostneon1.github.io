@@ -1,0 +1,108 @@
+.greenbutton {
+    border: solid #02CB59 1.5px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 3px;
+    color: #02CB59;
+    font-weight: bold;
+    transition-property: background-color color;
+    transition-duration: 0.4s;
+    user-select: none;
+    font-size: 20px;
+}
+.greenbutton:hover {
+    cursor: pointer;
+    background-color: #02CB59;
+    color: white;
+    transition-property: background-color color;
+    transition-duration: 0.4s;
+}
+.greenbutton:active {
+    background-color: #05b853;
+}
+h1 {
+    font-family: "Helvetica";
+    text-align: center;
+    user-select: none;
+    font-variant: small-caps;
+}
+.buttonso {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border: solid 1.5px rgb(185, 185, 185);
+    border-radius: 3px;
+}
+.buttonssilka {
+    padding: 20px;
+    border-radius: 3px;
+    border: solid rgb(1, 54, 187);
+    background-color: rgb(1, 54, 187);
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    transition-property: background-color color;
+    transition-duration: 0.4s;
+    user-select: none;
+    font-size: 20px;
+}
+.buttonssilka:hover {
+    cursor: pointer;
+    transition-property:background-color color;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: rgb(1, 54, 187);
+}
+.buttonssilka:active {
+    background-color:rgb(6, 49, 157);
+}
+.knopka {
+    text-decoration: none;
+    font-family: "Helvetica";
+    font-weight: bold;
+    user-select: none;
+}
+.knopka:hover {
+    text-decoration: underline;
+}
+h3 {
+    text-align: center;
+    font-family: "Helvetica";
+}
+p {
+    font-family: "Helvetica";
+    text-align: center;
+    font-size: 20px;
+}
+li {
+    font-family: "Helvetica";
+    margin: 10px;
+    font-size: 20px;
+}
+span {
+    background-color: yellow;
+}
+.size {
+    background-color: white;
+    border: solid 2px rgb(2, 186, 186);
+    color: rgb(2, 186, 186);
+    font-weight: bold;
+    font-variant: small-caps;
+    border-radius: 3px;
+    transition-property: background-color color padding;
+    transition-duration: 0.4s;
+    user-select: none;
+    padding: 20px;
+    font-size: 20px;
+}
+.size:hover {
+    cursor: pointer;
+    transition-property: background-color color padding;
+    transition-duration: 0.4s;
+    background-color: rgb(2, 186, 186);
+    color: white;
+    border-radius: 25px;
+}
+.size:active {
+    background-color: rgb(3, 148, 148);
+}
